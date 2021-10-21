@@ -1,0 +1,25 @@
+{
+    "name": "user/encryption.local",
+    "description": "Encription/Decription for Stream",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "User\\EncryptionLocal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Xudoyshukur",
+            "email": "xudush.egamov@mail.ru"
+        }
+    ]
+	"minimum-stability" : "dev" ,
+	"version" : "1.0.5" ,
+	"autoload" : {
+		"psr-0" : {
+			"egamov\\encryption" : "."
+		} ,
+		"classmap": [ "StreamDecorator.php" , "Filter.php" ]
+    }
+}
